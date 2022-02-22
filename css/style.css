@@ -109,10 +109,11 @@ figcaption {
 
 button {
   margin: 0px 0px 16px;
-  background-color: black;
+  background-color: #444444;
   border-style: none;
-  height: 23px;
-  width: 90px;
+  height: 23px; 
+  width: 130px; 
+  box-sizing: content-box;
  }
 
 button a {
@@ -122,6 +123,7 @@ button a {
   font-size: 10px;
   font-weight: 800;
   font-family: 'montserrat', sans-serif;
+  box-sizing: content-box;
 }
 
 footer {
